@@ -1,0 +1,20 @@
+{
+    "name": "huge",
+    "description": "Deploy huge on Heroku.",
+    "keywords": [
+        "huge"
+    ],
+    "env": {
+        "UUID": {
+            "description": "huge UUID",
+            "value": "ce7ea10b-5b27-49ab-a93d-6b184df9cce9"
+        },
+        "TUNNEL_TOKEN": {
+            "description": "Cloudflare Tunnel Token",
+            "required": false
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
