@@ -21,15 +21,15 @@
     "inbounds": [
         {
             "port": 8080,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
                         "id": "$UUID",
-                        "alterId": 0
+                        "level": 0
                     }
                 ],
-                 "disableInsecureEncryption": true
+                 "decryption": "none"
             },
             "streamSettings": {
                 "network": "ws",
